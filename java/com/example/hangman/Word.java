@@ -1,3 +1,5 @@
+//이렇게 편집을 하면 어떤 변화가 생길까요
+
 package com.example.hangman;
 
 public class Word {
