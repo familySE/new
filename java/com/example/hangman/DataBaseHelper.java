@@ -95,7 +95,6 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         try {
             db = getReadableDatabase();
             List<Word> words = new ArrayList<>();
-
             cursor = db.query(TABLE_WORDS, new String[]{WORD_ID, WORD}, null, null, null, null, WORD);
             while (cursor.moveToNext()) {
                 words.add(getWord(cursor));
