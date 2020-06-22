@@ -1,3 +1,4 @@
+//이것도 
 package com.example.hangman;
 
 import android.os.Bundle;
