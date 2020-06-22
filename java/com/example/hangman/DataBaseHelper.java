@@ -1,3 +1,4 @@
+//새로운변화
 package com.example.hangman;
 
 import android.content.ContentValues;
